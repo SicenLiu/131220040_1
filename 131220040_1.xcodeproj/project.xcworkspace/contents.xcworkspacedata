@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../131220040_1/FirstViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../131220040_1/FirstViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:../131220040_1/FirstViewController.xib">
+   </FileRef>
+   <FileRef
       location = "self:131220040_1.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,6 +14,8 @@
 		7C006A7B1BD4CA26004D641C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C006A7A1BD4CA26004D641C /* Images.xcassets */; };
 		7C006A7E1BD4CA26004D641C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C006A7C1BD4CA26004D641C /* LaunchScreen.xib */; };
 		7C006A8A1BD4CA26004D641C /* _31220040_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C006A891BD4CA26004D641C /* _31220040_1Tests.m */; };
+		7C006A9D1BD4CEBC004D641C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C006A9B1BD4CEBC004D641C /* FirstViewController.m */; };
+		7C006A9E1BD4CEBC004D641C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C006A9C1BD4CEBC004D641C /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		7C006A831BD4CA26004D641C /* 131220040_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 131220040_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C006A881BD4CA26004D641C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C006A891BD4CA26004D641C /* _31220040_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _31220040_1Tests.m; sourceTree = "<group>"; };
+		7C006A9A1BD4CEBC004D641C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = 131220040_1/FirstViewController.h; sourceTree = "<group>"; };
+		7C006A9B1BD4CEBC004D641C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = 131220040_1/FirstViewController.m; sourceTree = "<group>"; };
+		7C006A9C1BD4CEBC004D641C /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = 131220040_1/FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				7C006A6C1BD4CA26004D641C /* 131220040_1 */,
+				7C006A9A1BD4CEBC004D641C /* FirstViewController.h */,
+				7C006A9B1BD4CEBC004D641C /* FirstViewController.m */,
+				7C006A9C1BD4CEBC004D641C /* FirstViewController.xib */,
 				7C006A861BD4CA26004D641C /* 131220040_1Tests */,
 				7C006A6B1BD4CA26004D641C /* Products */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C006A791BD4CA26004D641C /* Main.storyboard in Resources */,
+				7C006A9E1BD4CEBC004D641C /* FirstViewController.xib in Resources */,
 				7C006A7E1BD4CA26004D641C /* LaunchScreen.xib in Resources */,
 				7C006A7B1BD4CA26004D641C /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				7C006A761BD4CA26004D641C /* ViewController.m in Sources */,
 				7C006A731BD4CA26004D641C /* AppDelegate.m in Sources */,
 				7C006A701BD4CA26004D641C /* main.m in Sources */,
+				7C006A9D1BD4CEBC004D641C /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 131220040_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 131220040_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +430,7 @@
 				7C006A8F1BD4CA26004D641C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C006A901BD4CA26004D641C /* Build configuration list for PBXNativeTarget "131220040_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				7C006A921BD4CA26004D641C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
